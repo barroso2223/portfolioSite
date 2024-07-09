@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="My Portfolio Site">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>My Portfolio Site</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<nav id="desktopNav">
+			<div class="logo">Daniel Barroso</div>
+			<div>
+				<ul class="navLinks">
+					<li><a href="#about.html">About</a></li>
+					<li><a href="#experience.html">Experience</a></li>
+					<li><a href="#projects.html">Projects</a></li>
+					<li><a href="#contacthtml">Contacts</a></li>
+				</ul>
+			</div>
+		</nav>
+		<nav id="hamburgerNav">
+			<div class="logo">Daniel Barroso</div>
+			<div class="hamburgerMenu">
+				<div class="hamburgerIcon" onclick="toggleMenu()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="menuLinks">
+					<li><a href="#about.html" onclick="toggleMenu()">About</a></li>
+					<li><a href="#experience.html" onclick="toggleMenu()">Experience</a></li>
+					<li><a href="#projects.html" onclick="toggleMenu()">Projects</a></li>
+					<li><a href="#contact.html" onclick="toggleMenu()">Contacts</a></li>
+				</div>
+			</div>
+		</nav>
+		<section id="profile">
+			<div class="sectionPicContainer">
+				<img src="assets/dannyprofileimg1croppednew.jpg" alt="Daniel Barroso profile picture">
+			</div>
+			<div class="sectionText">
+				<p class="sectionTextP1">Hello, I'm</p>
+				<h1 class="title">Daniel Barroso</h1>
+				<p class="sectionTextP2">Fullstack Developer</p>
+				<div class="btnContainer">
+					<button class="btn btnColor2" onclick="location.href='./assets/'">Download CV</button>
+					<button class="btn btnColor1" onclick="location.href='#contact'">Contact Info</button>
+				</div>
+				<div id="socialsContainer">
+					<a id="fontAwesome" onclick="location.href='https://linkedin.com/in/daniel-barroso82/'"><i class="fa fa-linkedin fa-2x"></i></a>
+					<a id="fontAwesome" onclick="location.href='https://github.com/barroso2223'"><i class="fa fa-github fa-2x"></i></a>
+				</div>
+			</div>
+		</section id="about">
+			<p class="sectionTextP1">Get To Know More</p>
+			<h1 class="title">About Me</h1>
+			<div class="sectionContainer">
+				<div class="sectionPicContainer">
+					<img src="./assets/dannyprofileimg2croppednew.jpg" alt="profile picture">
+				</div>
+				<div class="sectionTextContainer">
+					<p class="textContent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae excepturi vitae quibusdam laboriosam quisquam blanditiis aut laudantium eius, tenetur velit.</p>
+				</div>
+			</div>
+		<section>
+
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
